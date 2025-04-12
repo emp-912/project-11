@@ -1,5 +1,5 @@
 // OpenWeather API Key and Endpoint
-const APIkey = "44472f610c3a2c4bed80fd76e027b9cd"; //API key
+const APIkey = process.env.API_KEY; //API key
 const city = "London"; // City name
 const apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${APIkey}&units=metric`;
 
